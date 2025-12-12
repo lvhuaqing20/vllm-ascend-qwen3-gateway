@@ -1,0 +1,19 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Model / cache (do NOT commit) ---
+model_cache/
+.cache/
+.vllm_cache/
+torch_compile_cache/
+**/torch_compile_cache/
+**/.cache/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
